@@ -1,0 +1,390 @@
+/*Universal Styles*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFCFF;
+}
+
+/*Header*/
+
+header h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+header h2 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.header-info {
+  line-height: 5px;
+  text-align: center;
+  font-family: Arial
+}
+
+header img {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+}
+
+/*Navigation Menu*/
+
+#navmenu {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Garamond;
+  font-size: 18px;
+  background-color: #EDEBF0;
+  box-shadow: 0px 3px 3px #A1A0A3;
+}
+
+#navmenu li {
+  display: inline;
+  position: relative;
+  width: 220px;
+  float: left;
+}
+
+#navmenu li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.submenu li a {
+  margin-top: 5px;
+  display: block;
+  height: 20px;
+}
+
+#navmenu li a:hover {
+  color: #75201A;
+}
+
+#navmenu .submenu {
+  display: none;
+  position: absolute;
+}
+
+#navmenu .submenu li {
+  background-color: rgba(77, 55, 55, 0.2);
+  padding: 5px;
+}
+
+#navmenu li:hover .submenu {
+  display: block;
+}
+
+/*Home Page*/
+
+.home-content {
+  font-family: Garamond;
+  font-size: 18px;
+  color: #75201A;
+  margin: 44px 78px;
+  padding: 12px 24px;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-content p {
+  line-height: 1.5;
+}
+
+.about-me,
+  .experience,
+    .interests {
+  margin-bottom: 15px;
+  margin-right: 25px;
+  padding: 12px 24px;
+  width: 33%;
+  text-align: justify;
+}
+
+/*Education Page*/
+
+.education-content {
+  font-family: Garamond;
+  font-size: 18px;
+  color: #75201A;
+  margin: 24px 58px;
+  padding: 12px 24px;
+  width: 85%;
+}
+
+.education-content h1 {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.education-content p {
+  line-height: 1.5;
+}
+
+.ma-description,
+  .theses,
+    .ubc-description {
+  margin-left: 20px;
+}
+
+/*Work Page*/
+
+.work-content {
+  font-family: Garamond;
+  font-size: 18px;
+  color: #75201A;
+  margin: 28px 78px;
+  padding: 12px 24px;
+}
+
+.work-content h1 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.job-casc,
+  .job-rsvp {
+  display: flex;
+  padding-left: 75px;
+  margin-top: 25px;
+}
+
+.casc-title,
+  .rsvp-title {
+    width: 45%;
+  }
+
+.casc-description,
+  .rsvp-description {
+  width: 40%;
+  margin-left: 75px;
+}
+
+.casc-description li,
+  .rsvp-description li {
+  line-height: 1.7;
+}
+
+/*Research Page*/
+
+.research-content {
+  font-family: Garamond;
+  font-size: 18px;
+  color: #75201A;
+  margin: 68px 78px;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-one,
+  .box-two {
+  width: 40%;
+  height: 500px;
+  background-color: rgba(45, 41, 41, 0.3);
+}
+
+.neuro-click,
+  .clinicalpsych-click {
+  background-color: #EDEBF0;
+  height: 75px;
+  width: 100%;
+  font-size: 26px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.neuro-click:hover,
+  .clinicalpsych-click:hover {
+  background-color: #75201A;
+  color: #EDEBF0;
+  transition: background-color 200ms ease-in-out 50ms;
+}
+
+.neuro-click a,
+  .clinicalpsych-click a {
+    text-decoration: none;
+    color: #75201A;
+  }
+
+.neuro-title,
+  .clinicalpsych-title {
+  margin-top: 95px;
+  font-size: 24px;
+  text-align: center;
+  padding: 12px 24px;
+  line-height: 1.7;
+}
+
+.box-two p,
+  .box-one p {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+/*Neurobiology Page*/
+
+.neuro-content {
+  font-family: Garamond;
+  font-size: 18px;
+  color: #75201A;
+  margin: 28px 78px;
+  padding: 12px 24px;
+}
+
+.neuro-content h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.neuro-images {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+
+.nac,
+  .pfc,
+    .ifc {
+  background-color: lightgray;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.brain-region {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.brain-region:hover {
+  background-color: #75201A;
+  color: #EDEBF0;
+  transition: background-color 200ms ease-in-out 50ms;
+}
+
+.neuro-thesis {
+  font-size: 24px;
+  text-align: center;
+}
+
+.neuro-info {
+  margin-left: 25px;
+  margin-right: 35px;
+}
+
+/*Clinical Psychology Page*/
+
+.clinicalpsych-content {
+  font-family: Garamond;
+  font-size: 18px;
+  color: #75201A;
+  margin: 28px 78px;
+  padding: 12px 24px;
+}
+
+.clinicalpsych-content h1 {
+  text-align: center;
+}
+
+.coding-manual {
+  width: 300px;
+  height: 300px;
+  background-color: #EDEBF0;
+  color: #75201A;
+  float: right;
+  padding: 12px 24px;
+  margin-right: 35px;
+  position: relative;
+  top: 80px;
+}
+
+.coding-title {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+
+.coding-authors {
+  text-align: center;
+}
+
+.clinicalpsych-description {
+  width: 800px;
+  position: relative;
+  bottom: 45px;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #EDEBF0;
+  padding: 24px 44px;
+}
+
+footer textarea,
+          input {
+  width: 400px;
+  height: 25px;
+  font-family: Garamond;
+  font-size: 14px;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding-left: 5px;
+  color: #75201A;
+  box-shadow: 0px 3px 3px #A1A0A3;
+}
+
+button {
+  width: 50px;
+  color: #75201A;
+}
+
+button:hover {
+  background-color: #75201A;
+  color: #EDEBF0;
+  border-radius: 5px;
+  transition: background-color 200ms ease-in-out 50ms;
+
+}
+
+.contact-info {
+  font-family: Garamond;
+  font-size: 18px;
+}
+
+.contact-info i {
+  margin-right: 5px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 400px) {
+  .about-me,
+    .experience,
+      .interests {
+        width: 100%;
+      }
+}
