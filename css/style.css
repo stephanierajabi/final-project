@@ -383,6 +383,8 @@ button:hover {
         background-color: none;
         width: 100%;
         text-align: left;
+        margin: 0px;
+        padding: 0px;
       }
 
   .contact-form {
@@ -391,5 +393,12 @@ button:hover {
 
   #navmenu li {
     display: inline-block;
+  }
+
+  .education-content {
+    background-color: none;
+    width: 340px;
+    margin: 0px 15px;
+    padding: 0px 5px;
   }
 }
