@@ -151,9 +151,8 @@ header img {
 
 .job-casc,
   .job-rsvp {
-  display: flex;
   padding-left: 75px;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .casc-title,
@@ -191,6 +190,12 @@ header img {
   background-color: rgba(45, 41, 41, 0.3);
 }
 
+.box-two p,
+  .box-one p {
+  text-align: center;
+  font-size: 20px;
+}
+
 .neuro-click,
   .clinicalpsych-click {
   background-color: #EDEBF0;
@@ -223,12 +228,6 @@ header img {
   text-align: center;
   padding: 12px 24px;
   line-height: 1.7;
-}
-
-.box-two p,
-  .box-one p {
-  text-align: center;
-  font-size: 20px;
 }
 
 
@@ -379,26 +378,105 @@ button:hover {
 /*Media Queries*/
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
+
+/*Home Page*/
   .column {
         background-color: none;
-        width: 100%;
+        width: 290px;
         text-align: left;
         margin: 0px;
         padding: 0px;
+        position: relative;
+        right: 60px;
+        text-align: justify;
       }
 
-  .contact-form {
-    display: none;
-  }
-
-  #navmenu li {
-    display: inline-block;
-  }
+/*Education Page*/
 
   .education-content {
     background-color: none;
     width: 340px;
-    margin: 0px 15px;
+    margin: 0px 5px;
     padding: 0px 5px;
+    text-align: justify;
   }
+
+/*Work Page*/
+
+  .job-casc,
+    .job-rsvp {
+    background-color: none;
+    width: 300px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    line-height: 1;
+    position: relative;
+    right: 60px;
+  }
+
+  .work-content li {
+    line-height: 1.2;
+    margin-left: 0px;
+    width: 100%;
+    position: relative;
+    right: 30px;
+  }
+
+/*Research Page*/
+
+.box-one,
+  .box-two {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .box-one p,
+    .box-two p {
+      font-size: 18px;
+    }
+
+    .clinicalpsych-title,
+      .neuro-title {
+      font-size: 20px;
+    }
+
+
+/*Behavioural Neuro Page*/
+  .neuro-images {
+    display: none;
+  }
+
+  .neuro-info {
+    width: 250px;
+    margin: 10px 0px;
+    padding: 0px 0px;
+    position: relative;
+    right: 40px;
+  }
+
+  .neuro-thesis {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+/*Clinical Psych Page*/
+  .coding-manual {
+    display: none;
+  }
+
+  .clinicalpsych-description {
+    width: 250px;
+    position: relative;
+    right: 40px;
+  }
+
+.clinicalpsych-title {
+  margin-top: 10px;
+}
+
+/*Footer*/
+  .contact-form {
+    display: none;
+  }
+
 }
