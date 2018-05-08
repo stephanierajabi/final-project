@@ -381,7 +381,7 @@ button:hover {
   margin-right: 5px;
 }
 
-/*Media Queries*/
+/*Media Queries - Portrait Mode*/
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
 
@@ -515,5 +515,109 @@ button:hover {
   .contact-form {
     display: none;
   }
+
+}
+
+/*Media Queries - Landscape Mode*/
+
+@media screen and (max-width: 670px) and (orientation: landscape) {
+
+
+/*Nav Bar*/
+
+#navmenu li {
+  display: inline;
+  width: 100px;
+  font-size: 14px;
+}
+
+#navmenu .submenu li {
+  width: 150px;
+}
+
+/*Home Page*/
+
+/*Education Page*/
+
+.education-content {
+  text-align: justify;
+  margin-left: 0px;
+}
+
+/*Work Page*/
+
+.work-content {
+  text-align: justify;
+  margin-left: 0px;
+}
+
+/*Research Page*/
+
+.box-one, .box-two {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.neuro-click, .clinicalpsych-click {
+  font-size: 20px;
+  text-align: center;
+}
+
+.neuro-title, .psych-title {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.box-one p, .box-two p {
+  font-size: 18px;
+}
+
+/*Behavioural Neuro Page*/
+
+.neuro-images img {
+  width: 195px;
+  height: 240px;
+  margin-right: 10px;
+}
+
+.neuro-info {
+  text-align: justify;
+}
+
+
+/*Clinical Psych Page*/
+
+
+.clinicalpsych-content {
+  width: 100%;
+}
+
+.coding-manual {
+  display: none;
+}
+
+.clinicalpsych-info {
+  width: 400px;
+  text-align: justify;
+}
+
+.clinicalpsych-title {
+  width: 400px;
+}
+
+/*Footer*/
+
+.contact-info {
+  font-size: 16px;
+}
+
+footer textarea,
+          input {
+            width: 250px;
+          }
+button {
+  background-color: darkgray;
+  border-radius: 5px;
+}
 
 }
