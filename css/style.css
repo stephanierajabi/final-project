@@ -454,7 +454,7 @@ button:hover {
 
   .neuro-click,
     .clinicalpsych-click {
-      font-size: 20px;
+      font-size: 18px;
       text-align: center;
     }
 
@@ -468,6 +468,7 @@ button:hover {
       font-size: 14px;
       line-height: 1;
       margin-top: 0;
+      text-align: center;
     }
 
 
