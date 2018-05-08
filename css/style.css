@@ -103,9 +103,10 @@ header img {
   margin-bottom: 15px;
   margin-right: 25px;
   padding: 12px 24px;
-  width: 350px;
+  width: 320px;
   text-align: justify;
-  float: left;
+  float: right;
+  clear: left;
 }
 
 /*Education Page*/
@@ -379,6 +380,19 @@ button:hover {
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
 
+/*NavBar*/
+
+#navmenu li {
+  display: inline;
+  width: 80px;
+  font-size: 14px;
+}
+
+#navmenu .submenu li {
+  width: 80px;
+}
+
+
 /*Home Page*/
   .column {
         background-color: none;
@@ -415,7 +429,7 @@ button:hover {
   }
 
   .work-content li {
-    line-height: 1.2;
+    line-height: 1.4;
     margin-left: 0px;
     width: 100%;
     position: relative;
@@ -426,18 +440,27 @@ button:hover {
 
 .box-one,
   .box-two {
-    width: 100%;
-    margin-top: 0;
+    height: 350px;
+    width: 200px;
+    margin-left: 15px;
   }
+
+  .neuro-click,
+    .clinicalpsych-click {
+      font-size: 20px;
+      text-align: center;
+    }
 
   .box-one p,
     .box-two p {
-      font-size: 18px;
+      font-size: 14px;
     }
 
     .clinicalpsych-title,
       .neuro-title {
-      font-size: 20px;
+      font-size: 14px;
+      line-height: 1;
+      margin-top: 0;
     }
 
 
