@@ -93,8 +93,6 @@ header img {
   margin: 44px 78px;
   padding: 12px 24px;
   float: left;
-  display: flex;
-  justify-content: space-around;
 }
 
 .home-content p {
@@ -105,8 +103,9 @@ header img {
   margin-bottom: 15px;
   margin-right: 25px;
   padding: 12px 24px;
-  width: 33%;
+  width: 350px;
   text-align: justify;
+  float: left;
 }
 
 /*Education Page*/
@@ -381,6 +380,16 @@ button:hover {
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
   .column {
+        background-color: none;
         width: 100%;
+        text-align: left;
       }
+
+  .contact-form {
+    display: none;
+  }
+
+  #navmenu li {
+    display: inline-block;
+  }
 }
